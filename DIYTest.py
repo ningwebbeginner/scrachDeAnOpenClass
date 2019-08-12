@@ -52,8 +52,8 @@ def printClass(lst,num):
 		print("{:^5}\t{:^10}\t{:^10}\t{:^10}".format(l[0],l[1],l[2],l[3]))
 
 def sendGmailtoYahoo(lMessage):
-	from_address = "ninggbackup@gmail.com"
-	to_address = "ningxuyuser@yahoo.com"
+	from_address = ""
+	to_address = ""
 	# Create message container - the correct MIME type is multipart/alternative.
 	msg = MIMEMultipart('alternative')
 	msg['Subject'] = "Test email"
@@ -66,8 +66,8 @@ def sendGmailtoYahoo(lMessage):
 	# Attach parts into message container
 	msg.attach(part1)
 	# Credentials
-	username = 'ninggbackup@gmail.com'  
-	password = 'ngaebafbhbxrrxto'  
+	username = ''  
+	password = ''  
 	# Sending the email
 	## note - this smtp config worked for me, I found it googling around, you may have to tweak the # (587) to get yours to work
 	server = smtplib.SMTP('smtp.gmail.com', 587) 
