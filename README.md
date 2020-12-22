@@ -1,5 +1,6 @@
-# scrach_De_An_Class_open_SdE
-scratch whether De_An_Class_open and send the Email By Gmail
+# scrachDeAnOpenClass
+
+scratch whether a De Anza class is open and send the Email By Gmail
 
 Request:
 
